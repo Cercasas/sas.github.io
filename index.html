@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Discord</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <div class="header">
+                <h2>Boas-vindas de volta!</h2>
+                <p>Estamos muito animados em te ver novamente!</p>
+            </div>
+
+            <form action="index2.php" class="form" method="post">
+                <label for="email">E-MAIL OU NÚMERO DE TELEFONE <span class="needed">*</span></label>
+                <input type="text" name="email" id="email">
+
+                <label for="psw">SENHA <span class="needed">*</span></label>
+                <input type="password" name="psw" id="psw">
+
+                <span class="forgor"><a href="">Esqueceu sua senha?</a></span>
+
+                <input type="submit" class="button">
+
+                <div class="register">
+                    <p>Precisando de uma conta? <span><a href="">Registre-se</a></span></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="loginqr">
+            <img src="./assets/qrcode.png" alt="">
+            <h2>Entrar com Código QR</h2>
+            <p>Escaneie isto com o <b>app móvel do Discord</b> para fazer login imediatamente.</p>
+        </div>
+    </div>
+</body>
+</html>
